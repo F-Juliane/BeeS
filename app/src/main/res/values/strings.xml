@@ -4,8 +4,11 @@
     <string name="add_product">Adicionar produto</string>
     <string name="search_product">Procurar produto</string>
     <string name="add_product_title">Adicionar Produto</string>
+    <string name="add_store_title">Adicionar Loja</string>
     <string name="hint_product_name">Nome do produto</string>
+    <string name="hint_store_name">Nome da Loja</string>
     <string name="hint_product_code">Matrícula do produto</string>
+    <string name="hint_store_code">Código da Loja</string>
     <string name="hint_product_price">Preço (R$)</string>
     <string name="hint_product_amount">Quantidade</string>
     <string name="button_register">Cadastrar</string>
