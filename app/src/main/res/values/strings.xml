@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">BeeS</string>
+    <string name="welcome_text">Bem Vindo!</string>
+    <string name="hint_login_email">Email</string>
+    <string name="hint_login_password">Senha</string>
+    <string name="login">Login</string>
+    <string name="not_register">Não tem cadastro?</string>
+    <string name="register">Sign Up</string>
     <string name="init_option">Escolha uma opção</string>
     <string name="add_product">Adicionar produto</string>
     <string name="search_product">Procurar produto</string>

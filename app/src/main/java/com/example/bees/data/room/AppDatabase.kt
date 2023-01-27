@@ -7,8 +7,9 @@ import androidx.room.RoomDatabase
 import com.example.bees.data.dao.ProductDAO
 import com.example.bees.data.dao.StoreDAO
 import com.example.bees.data.model.ProductModel
+import com.example.bees.data.model.StoreModel
 
-@Database(entities = [ProductModel::class], version = 1, exportSchema = false)
+@Database(entities = [ProductModel::class, StoreModel::class], version = 1, exportSchema = false)
 abstract class AppDatabase: RoomDatabase() {
 
     abstract fun ProductDAO(): ProductDAO

@@ -9,15 +9,13 @@ import androidx.room.PrimaryKey
 class StoreModel {
 
     @PrimaryKey(autoGenerate = true)
-    @ColumnInfo(name="id")
+    @ColumnInfo(name = "id")
     var id: Int = 0
 
-    @ColumnInfo(name="name")
+    @ColumnInfo(name = "name")
     var name: String = ""
 
-    @ColumnInfo(name="store_code")
+    @ColumnInfo(name = "store_code")
     var storeCode: String = ""
 
-    @ColumnInfo(name="products")
-    var products: List<ProductModel> = emptyList()
 }
